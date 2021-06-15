@@ -14,7 +14,7 @@ input.addEventListener("input", (ev) => {
       .then((res) => {
         input.removeAttribute("disabled");
         if (res.temperature !== "") {
-          result.innerHTML = `In ${val} ${res.temperature} degrees celsius`;
+          result.innerHTML = `In ${val} the temperature is ${res.temperature}`;
         } else {
           result.innerHTML = `Please enter the correct region name`;
         }
