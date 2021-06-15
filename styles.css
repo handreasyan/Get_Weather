@@ -1,0 +1,35 @@
+.root {
+  margin: 50px auto;
+  background-color: chartreuse;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  border: 1px solid #000;
+  width: 90%;
+  height: 90%;
+}
+.input {
+  border-radius: 5px;
+  width: 90%;
+  border: none;
+  outline: none;
+  margin: 20px auto;
+  display: block;
+  height: 50px;
+  font-size: 30px;
+  background-color: rgb(128, 167, 90);
+  color: green;
+}
+.result {
+  border: 2px solid #000;
+  width: 90%;
+  padding: 5px;
+  margin: 0 auto;
+}
+.input:disabled {
+  border: 2px solid red;
+}
